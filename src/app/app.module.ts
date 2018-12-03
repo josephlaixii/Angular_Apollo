@@ -26,8 +26,8 @@ export class AppModule {
     apollo:Apollo,
     httpLink:HttpLink
   ){
-    // apollo.create({
-    //   link:httpLink.create({})
-    // });
+    apollo.create({
+      link:httpLink.create({})
+    });
   }
 }
